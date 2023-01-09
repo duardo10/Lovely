@@ -108,6 +108,20 @@ nav > a.propietaria::before{
     content: '\1F9DA';
 }
 
+div > p.imagens{
+    display: contents;
+    height: 30px;
+}
+
+div > h2.imagens{
+    color: aquamarine;
+    border: 10px solid darkslategray;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
 /*
 main{
     min-width: 300px;
@@ -134,8 +148,8 @@ p{
 img{
     display: inline-block;
     text-align: center;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 }
 
 footer{
